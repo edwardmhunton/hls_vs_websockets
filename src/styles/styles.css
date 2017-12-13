@@ -1,0 +1,25 @@
+body {
+
+}
+
+.player_holder {
+  width: 100%;
+ text-align: center;
+}
+
+.player {
+  float: inherit;
+  display: inline-block;
+  width:400px;
+  height:300px;
+  background-color: grey;
+
+}
+
+.stream_box{
+  padding: 30px;
+  margin:50px;
+  width:400px;
+   display: inline-block;
+
+}

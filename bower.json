@@ -1,0 +1,17 @@
+{
+  "name": "hls_vs_websocks_demo",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "edwardmhunton <edward.hunton@sky.uk>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
