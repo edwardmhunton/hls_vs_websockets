@@ -28,7 +28,9 @@ render () {
           <div id="websockets" className="stream_box">
             <h2>Web Socket Stream</h2>
 
-              <div className="player" />
+              <canvas id="video-canvas"></canvas>
+
+
 
               <button type="button" className="btn">Start Stream</button>
 
