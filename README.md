@@ -1,6 +1,6 @@
-requires latest version of FFMpeg
+requires latest version of FFMpeg, node 5
 
-uses video js and jsmpeg for broser playback
+uses video.js (http://videojs.com/) and jsmpeg.js (https://github.com/phoboslab/jsmpeg) for browser playback
 
 for websocket run these commands from root unless specified
 
