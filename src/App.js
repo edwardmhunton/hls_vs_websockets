@@ -21,7 +21,7 @@ render () {
 
                 <div className="player" >
                   <video id='example-hls' width='320' height='240' className="video-js vjs-default-skin">
-                    <source src='./newStreamindex.m3u8' type='application/x-mpegURL' />
+                    <source src='./hls_content/newStreamindex.m3u8' type='application/x-mpegURL' />
                   </video>
                 </div>
 
@@ -33,7 +33,7 @@ render () {
 
               <div className="player" >
                 <video data-dashjs-player id='videoPlayer' width='320' height='240' className="vjs-default-skin">
-                  <source src='./test.mpd' type='application/x-mpegURL' />
+                  <source src='./dash_content/test.mpd' type='application/x-mpegURL' />
                 </video>
               </div>
 
