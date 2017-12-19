@@ -12,15 +12,15 @@ for websocket run these commands from root unless specified
 
 for hls
 
-1) run shell_scripts/hls.sh
+run shell_scripts/hls.sh
 
 for dash 
 
-1) run shell_scripts/dash.sh
+run shell_scripts/dash.sh
 
 for webpage + players
 
-1) run npm start
+run npm start
 
 
 
