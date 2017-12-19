@@ -1,26 +1,26 @@
-requires latest version of FFMpeg
+requires latest version of FFMpeg, node 5
 
-uses video js and jsmpeg for broser playback
+uses video.js (http://videojs.com/) and jsmpeg.js (https://github.com/phoboslab/jsmpeg) for browser playback
 
-for websocket
+for websocket run these commands from root unless specified
 
-1) start node server/websocket-relay.js supersecret 8081 8082 
+1) node server/websocket-relay.js supersecret 8081 8082 
 
-2) start http-server
+2) in server folder run http-server
 
 3) run shell_scripts/websocks.sh
 
 for hls
 
-1) run shell_scripts/hls.sh
+run shell_scripts/hls.sh
 
 for dash 
 
-1) run shell_scripts/dash.sh
+run shell_scripts/dash.sh
 
 for webpage + players
 
-1) run npm start
+run npm start
 
 
 
