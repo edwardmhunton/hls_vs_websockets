@@ -1,5 +1,4 @@
 import React from 'react';
-//import ReactDom from 'react-dom';
 
 
 class App extends React.Component {
@@ -20,19 +19,36 @@ render () {
           <div id="hls" className="stream_box">
             <h2>HLS Stream</h2>
 
-                <div className="player" />
+                <div className="player" >
+                  <video id='example-hls' width='320' height='240' className="video-js vjs-default-skin">
+                    <source src='./newStreamindex.m3u8' type='application/x-mpegURL' />
+                  </video>
+                </div>
 
-                  <button type="button" className="btn">Start Stream</button>
+                
 
           </div>
-          <div id="websockets" className="stream_box">
+          <div id="websockets" className="stream_box">  
+            <h2>Dash Stream</h2>
+
+              <div className="player" >
+                <video data-dashjs-player id='videoPlayer' width='320' height='240' className="vjs-default-skin">
+                  <source src='./test.mpd' type='application/x-mpegURL' />
+                </video>
+              </div>
+
+
+
+            
+
+          </div><div id="websockets" className="stream_box">
             <h2>Web Socket Stream</h2>
 
-              <canvas id="video-canvas"></canvas>
+              <canvas id="video-canvas" width="320" height="240"></canvas>
 
 
 
-              <button type="button" className="btn">Start Stream</button>
+            
 
           </div>
         </div>

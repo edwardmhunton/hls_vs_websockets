@@ -44,6 +44,10 @@ export default {
         use: ['babel-loader']
       },
       {
+        test: /\.exec\.js$/,
+        use: [ 'script-loader' ]
+      },
+      {
         test: /\.eot(\?v=\d+.\d+.\d+)?$/,
         use: ['file-loader']
       },
